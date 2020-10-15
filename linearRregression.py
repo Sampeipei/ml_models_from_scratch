@@ -47,4 +47,5 @@ class linearRegression:
 
     def plotResult(self, X=[], Y=[], xLabel="", yLabel="", fName=""):
         # Result plot function
+        # New Comments
         pass
