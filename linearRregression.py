@@ -46,4 +46,5 @@ class linearRegression:
         return 1 - np.sum(np.square(self.predict(X) - Y)) / np.sum(np.square(Y - np.meam(Y,axis=0)))
 
     def plotResult(self, X=[], Y=[], xLabel="", yLabel="", fName=""):
+        # Result plot function
         pass
